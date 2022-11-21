@@ -1,7 +1,7 @@
  //bt1
  
- let a = '12';
- console.log(Number.isFinite(a) && Number.isNaN(a));
+ let a = 'abc';
+ console.log(Number.isFinite(parseInt(a)));
 
 
 
